@@ -96,6 +96,12 @@
     <Image Include="Morphx.ico" />
     <Image Include="small.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="..\Scripts\MuchLove.lua">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+      <FileType>Document</FileType>
+    </CopyFileToFolders>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

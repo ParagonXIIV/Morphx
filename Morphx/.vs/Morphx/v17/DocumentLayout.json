@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\paragon\\source\\repos\\Morphx\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9A85B296-FF7B-4B06-997D-83E9FA7B2ED1}|Morphx\\Morphx.vcxproj|C:\\Users\\paragon\\source\\repos\\Morphx\\Morphx\\Morphx.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9A85B296-FF7B-4B06-997D-83E9FA7B2ED1}|Morphx\\Morphx.vcxproj|solutionrelative:Morphx\\Morphx.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A85B296-FF7B-4B06-997D-83E9FA7B2ED1}|Morphx\\Morphx.vcxproj|C:\\Users\\paragon\\source\\repos\\Morphx\\Scripts\\MuchLove.lua||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{9A85B296-FF7B-4B06-997D-83E9FA7B2ED1}|Morphx\\Morphx.vcxproj|solutionrelative:Scripts\\MuchLove.lua||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9A85B296-FF7B-4B06-997D-83E9FA7B2ED1}|Morphx\\Morphx.vcxproj|C:\\Users\\paragon\\source\\repos\\Morphx\\Morphx\\Morphx.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9A85B296-FF7B-4B06-997D-83E9FA7B2ED1}|Morphx\\Morphx.vcxproj|solutionrelative:Morphx\\Morphx.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -17,18 +25,40 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MuchLove.lua",
+              "DocumentMoniker": "C:\\Users\\paragon\\source\\repos\\Morphx\\Scripts\\MuchLove.lua",
+              "RelativeDocumentMoniker": "Scripts\\MuchLove.lua",
+              "ToolTip": "C:\\Users\\paragon\\source\\repos\\Morphx\\Scripts\\MuchLove.lua",
+              "RelativeToolTip": "Scripts\\MuchLove.lua",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-02-23T15:37:08.949Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Morphx.h",
+              "DocumentMoniker": "C:\\Users\\paragon\\source\\repos\\Morphx\\Morphx\\Morphx.h",
+              "RelativeDocumentMoniker": "Morphx\\Morphx.h",
+              "ToolTip": "C:\\Users\\paragon\\source\\repos\\Morphx\\Morphx\\Morphx.h",
+              "RelativeToolTip": "Morphx\\Morphx.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-02-23T15:24:50.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Morphx.cpp",
               "DocumentMoniker": "C:\\Users\\paragon\\source\\repos\\Morphx\\Morphx\\Morphx.cpp",
               "RelativeDocumentMoniker": "Morphx\\Morphx.cpp",
               "ToolTip": "C:\\Users\\paragon\\source\\repos\\Morphx\\Morphx\\Morphx.cpp",
               "RelativeToolTip": "Morphx\\Morphx.cpp",
-              "ViewState": "AQIAAGkAAAAAAAAAAAAAAE4AAAAxAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAALgAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-02-22T02:17:58.928Z",
               "EditorCaption": ""

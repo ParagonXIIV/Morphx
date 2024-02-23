@@ -181,3 +181,68 @@ INT_PTR CALLBACK About(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
     }
     return (INT_PTR)FALSE;
 }
+
+//Constructor DEF
+LuaMorphx::LuaMorphx()
+{
+
+    m_ptrLuaState = luaL_newstate();
+    if (m_ptrLuaState)
+    {
+       // Load the Lua std lib
+        luaL_openlibs(m_ptrLuaState);
+
+        // LOAD LUA Register Functions
+       
+
+       // Load and parse PussyCum.lua Script
+        int resultL = luaL_loadfile(m_ptrLuaState, "./PussyCum.lua");
+        if (resultL == LUA_OK)
+        {
+            // Run the Plain Script
+           resultL =  lua_pcall(m_ptrLuaState, 0, LUA_MULTRET, 0);
+           if (resultL == LUA_OK)
+           {
+               // Lua Init was done Properly
+               m_luaOk = true;
+            }
+        }
+    }
+
+}
+ 
+// Destructor DEF
+LuaMorphx::~LuaMorphx()
+{
+    if (m_ptrLuaState)
+    {
+        lua_close(m_ptrLuaState);
+    }
+
+}
+
+bool LuaMorphx::tick()
+{
+    bool result = false;
+    // Only on valid lua
+    if (m_luaOk)
+    {
+        // Call Lua
+        if (lua_getglobal(m_ptrLuaState, "init") == LUA_TFUNCTION) {
+            if (lua_pcall(m_ptrLuaState, 0, 1, 0) == LUA_OK) {
+                // On Succeed Get result
+                if (lua_isboolean(m_ptrLuaState, -1))
+                {
+                   result =  lua_toboolean(m_ptrLuaState, -1);
+                }
+                // Pop return value from stack
+                lua_pop(m_ptrLuaState, 1);
+            }
+         }
+      }
+
+
+
+
+    return result;
+}
